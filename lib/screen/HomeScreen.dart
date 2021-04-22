@@ -9,11 +9,13 @@ class HomeScreen extends StatelessWidget {
         title:Text("Appbar")
       ),
       body: Center(    
-          child: Container( 
-            child: Text("second Text"),
+          child: Container( height: 100, width: 100, color: Colors.blueGrey,
+            child: Text("Home Screen", style: TextStyle(fontSize: 20,  color: Colors.white),),
         ),
       ),
-      drawer: Drawer(),
-    );
+      drawer: Drawer(
+        child: Text("Item-1", style: TextStyle(fontSize: 20,  color: Colors.lightBlueAccent),),
+      )
+      );
   }
 }
