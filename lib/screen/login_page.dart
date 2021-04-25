@@ -34,7 +34,7 @@ class LoginPage extends StatelessWidget {
             ),
           ),
           SizedBox(
-            height: 16,
+            height: 20,
           ),
 
           ElevatedButton.icon(
@@ -42,10 +42,10 @@ class LoginPage extends StatelessWidget {
               icon: Icon(Icons.login_outlined),
               label: Text(
                 "Login",
-                style: TextStyle(color: Colors.white, fontSize: 16),
-              )),
+              ),
+            style: TextButton.styleFrom(minimumSize: Size(150, 45)),
+          ),
 
-          SizedBox(height: 10,)
 
 
         ], //children1
