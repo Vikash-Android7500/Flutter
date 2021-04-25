@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
       ),
       body: Center(    
           child: Container( height: 100, width: 100, color: Colors.blueGrey,
-            child: Text("Home Screen", style: TextStyle(fontSize: 20,  color: Colors.white),),
+            child: Center(child: Text("Home Screen", style: TextStyle(fontSize: 20,  color: Colors.white),)),
         ),
       ),
       drawer: Drawer(
