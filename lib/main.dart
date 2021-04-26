@@ -1,5 +1,4 @@
 import 'package:fistday/screen/HomeScreen.dart';
-import 'package:fistday/utils/routes.dart';
 import 'package:flutter/material.dart';
 
 void main() {
